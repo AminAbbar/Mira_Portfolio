@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Mira</title>
+</head>
+
+<body>
+    <div class="profile__container grid">
+
+        <div class="profile__data">
+            <div class="profileFlex">
+                <div class="filter">
+                    <img class="banner" src="assets/img/d.png">
+                </div>
+
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/unknown.png" alt="">
+                    </div>
+                </div>
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+
+
+            <h2 class="profile__name">@MiraUwU</h2>
+            <h3 class="profile__profession">Youtuber</h3>
+
+            <ul class="profile__social">
+                <a href="https://www.instagram.com/_1_1k_/" target="_blank" class="profile__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://twitter.com/MIRAUWU11" target="_blank" class="profile__social-link">
+                    <i class="ri-twitter-line"></i>
+                </a>
+                <a href="https://discord.com/users/871848706327072778" target="_blank" class="profile__social-link">
+                    <i class="ri-discord-line"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCx1PfeJMTOoryYBmZUDDNyw" target="_blank" class="profile__social-link">
+                    <i class="ri-youtube-fill"></i>
+                </a>
+            </ul>
+        </div>
+        <header class="profile container">
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 id="subsCount" class="profile__info-number">7</h3>
+                    <p class="profile__info-description">
+                        Subscribers On<br> Youtube
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 id="viewsCount" class="profile__info-number">+124</h3>
+                    <p class="profile__info-description">
+                        Views On<br> Youtube
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">2,665</h3>
+                    <p class="profile__info-description">Instagram <br> Followers</p>
+                </div>
+            </div>
+            <br>
+            <div class="profile__buttons">
+                <a download="" href="https://discord.gg/epUmuxAx" target="_blank" class="button">
+                        Discord Server  <i class="ri-discord-line"></i>
+                    </a>
+            </div>
+    </div>
+    </header>
+    <main class="main">
+        <section class="filters container">
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                        Videos
+                    </button>
+                <button class="filters__button" data-target="#skills">
+                       YT Comments
+                    </button>
+            </ul>
+
+            <div class="filters__sections">
+                <div class="projects__content grid filters__active" data-content id="projects">
+                </div>
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Random Comments From :</h3>
+                        <h6> </h6>
+                        <div class="skills__box">
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <div class="commentsVideoTitleBox">
+                            <h3 class="skills__title">Random Comments From :</h3>
+                            <h5 href="" id="CommentsBox1Video">
+                            </h5>
+                        </div>
+                        <div id="commentsBox1" class="skills__box">
+
+                        </div>
+                    </div>
+        </section>
+    </main>
+    <footer class="footer container">
+        <span class="footer__copy">
+                &#169; 2022
+            </span>
+    </footer>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
